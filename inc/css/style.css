@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+.container {
+  background: #2B3647;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.container .allitems {
+  background: rgb(56, 68, 86);
+  border: 1px solid #191F2A;
+  color: #D8DADD;
+
+}
+.container .table {
+	width:100%;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  box-shadow: 0px 0px 50px -20px #000;
+  font-weight: 300;
+}
+.container .table .data-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background: rgb(56, 68, 86);
+  color: #D8DADD;
+  padding: 10px;
+  border: 1px solid #191F2A;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.container .table .data-row .header__data {
+  text-align: center;
+}
+.container .table .green {
+  color: #8DE585;
+}
+/*# sourceMappingURL=style.css.map */
